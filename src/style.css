@@ -1,4 +1,31 @@
+body {
+  background: radial-gradient(
+    253px at 12.6% 77.9%,
+    rgb(221, 255, 214) 0.3%,
+    rgb(214, 254, 254) 90.5%
+  );
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+  font-family: "Blinker", sans-serif;
+}
 h1 {
-  color: rgb(33, 102, 252);
-  background: rgb(197, 227, 236);
+  color: #ffdf00;
+  font-size: 34px;
+  line-height: 48px;
+  margin: 0 0 24px;
+}
+h2 {
+  color: #009c3b;
+  font-size: 30px;
+  line-height: 48px;
+  margin: 0 0 24px;
+}
+h3 {
+  color: #0144a8;
+  font-size: 26px;
+  line-height: 48px;
+  margin: 0 0 24px;
 }
