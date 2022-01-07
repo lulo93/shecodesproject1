@@ -29,3 +29,67 @@ h3 {
   line-height: 48px;
   margin: 0 0 24px;
 }
+img:hover {
+  border-style: groove solid;
+}
+.passistas {
+  display: block;
+  margin: 30px auto;
+  max-width: 70%;
+  border-radius: 10px;
+  border-style: solid;
+  border-top-color: #ffdf00;
+  border-bottom-color: #0144a8;
+  border-right-color: #009c3b;
+  border-left-color: #009c3b;
+  border-width: thick;
+}
+
+.origins {
+  text-decoration: none;
+  font-weight: bold;
+  color: #0144a8;
+}
+p {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  color: #0144a8;
+  font-size: 16px;
+  line-height: 22px;
+  margin: 10px 24px;
+}
+
+.footer {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  font-size: 16px;
+  line-height: 22px;
+  margin: 0 0 24px;
+}
+button {
+  font-family: helvetica;
+  display: block;
+  margin: 20px auto;
+  border: 3px solid #5ca5e0;
+  background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 22px;
+  padding: 16px 24px;
+  border-radius: 20px;
+  transition: all 200ms ease;
+  box-shadow: rgba(37, 39, 89, 0.08) 4px 12px 12px 4;
+  cursor: pointer;
+}
+button:hover {
+  background: #5ca5e0;
+  color: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+  border: 1px solid linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+.dance {
+  max-width: 600px;
+  margin: 0 auto;
+  border-radius: 5px;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/016/977/original/Untitled_design_%283%29.gif?1631351637");
+}
